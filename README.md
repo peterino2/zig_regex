@@ -1,6 +1,6 @@
 # Zig Regex
 
-A fairly quick regex implementation done a while back for learning purposes, Imma just clean it up and put it out there.
+A fairly quick regex implementation done a while back for learning purposes, I'll just clean it up and put it out there.
 This one is largely implemented with tagged unions and recursive descent rather than a state machine or a 
 byte gobbler so it shows you actually can write zig programs in a fairly functional manner. 
 
