@@ -36,8 +36,9 @@ in terms of sequences, a few of the most commonly supported sequences are suppor
 - `[]`: or match group (match any union of elements within)
 - `a-z`: sequence range match
 - predefined semantic groups:
-    - `\s` : (capital version is inverted)
-    - `\w` : word
+    - `\s` : whitespace (capital version is inverted)
+    - `\w` : alphanumeric
+    - `\d` : digits
 - `!`: Single term negation negates matches that are a single term. does not work on `()` groups or. but will work on or-groups.
     - negative look-ahead is not supported.
 

@@ -627,7 +627,9 @@ const ReParser = struct {
                             regex_obj = try GRegexObject.make_digits(self.allocator);
                             regex_obj.invert = true;
                         },
-                        else => {},
+                        else => {
+                            // Literal character
+                        },
                     }
 
                     // check if it's an escape sequence that matches one of the special sequences
