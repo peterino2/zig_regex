@@ -7,7 +7,8 @@ byte gobbler so it shows you actually can write zig programs in a fairly functio
 In fact it's pretty damn nice for it.
 
 You can test the library with 
-```
+
+```zig
 zig test gregex.zig
 ```
 
@@ -15,7 +16,7 @@ Usecases can be found in the .zig file itself,
 
 but here's a simple usecase.
 
-```
+```zig
     var test_restr = "name: *(.*)\\((.*)\\)$";
 
     var find = try re_find_once(test_restr, "date: 2077-06-24 name: adam jensen (occupation: killa)\n", alloc);
